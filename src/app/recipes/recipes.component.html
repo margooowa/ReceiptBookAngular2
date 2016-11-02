@@ -3,6 +3,6 @@
     <rb-recipe-list (recipeSelected)="selectedRecipe = $event"></rb-recipe-list>
   </div>
   <div class="col-md-7">
-   Item
+    <rb-recipe-detail [selectedRecipe]="selectedRecipe"></rb-recipe-detail>
   </div>
 </div>
