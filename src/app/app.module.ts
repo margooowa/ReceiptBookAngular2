@@ -34,6 +34,7 @@ import {RecipeService} from "./recipes/recipe.service";
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
