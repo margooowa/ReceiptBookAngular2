@@ -56,6 +56,7 @@ export class RecipeService {
       .subscribe(
         (data: Recipe[]) => {
           this.recipes = data;
+          console.log(this.recipes);
           this.recipesChanged.emit(this.recipes);
         }
       );
